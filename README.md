@@ -12,7 +12,7 @@ OpenCore for HP 800G1 USDT with HD4600 and Intel WLAN
 ## OC information
 
 - OC Version: 0.7.1
-- Tested OS Version: 11.4 (20F71)
+- Tested OS Version: 11.5.1 (20G80)
 - Tested resolution: 1920*1080
 
 ## Working
