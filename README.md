@@ -1,29 +1,29 @@
 <!--
  * @Date: 2021-04-29 14:08:06
  * @LastEditors: LemoFire
- * @LastEditTime: 2021-07-06 13:01:33
+ * @LastEditTime: 2021-08-03 14:33:20
  * @FilePath: /undefined/Users/lemofire/Documents/git/OpenCore-HP-800G1-USDT-HD4600/README.md
 -->
 
 # OpenCore-HP-800G1-USDT-HD4600
 
-OpenCore for HP 800G1 USDT with HD4600 and Intel WLAN
+OpenCore for HP 800G1 USDT with HD4600
 
 ## OC information
-
-- OC Version: 0.7.1
+*(Note that due to the damage of my machine, this version of EFI has not been tested on the machine. If it cannot be used, please download BigSur-1.0)*
+- OC Version: 0.7.2
 - Tested OS Version: 11.5.1 (20G80)
-- Tested resolution: 1920*1080
+- Tested resolution: 1920\*1080
 
 ## Working
 
-- WIFI
+- WIFI(Intel or Broadcom(no wireless card test))
 - Sound
 - USB Port
 
 ## Not working
 
-- 4K (No equipment for testing, if you have one, you can submit PR)
+- 4K (BIOS settings are not very compatible)
 
 ## Before installation
 
@@ -52,12 +52,14 @@ OpenCore for HP 800G1 USDT with HD4600 and Intel WLAN
 
 ## Kext information
 
-| Name                                                          | Version         |
-| ------------------------------------------------------------- | --------------- |
-| [Lilu](https://github.com/acidanthera/Lilu)                   | 1.5.4           |
-| [VirtualSMC](https://github.com/acidanthera/VirtualSMC)       | 1.2.5           |
-| [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.1           |
-| [AppleALC](https://github.com/acidanthera/AppleALC)           | 1.6.2           |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)    | 2.0.0(2021-7-2) |
-| [IntelMausi](https://github.com/acidanthera/IntelMausi)       | 1.0.7           |
-| [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All)  | 0.7.6           |
+| Name                                                                | Version         |
+| ------------------------------------------------------------------- | --------------- |
+| [Lilu](https://github.com/acidanthera/Lilu)                         | 1.5.5           |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC)             | 1.2.6           |
+| [WhateverGreen](https://github.com/acidanthera/WhateverGreen)       | 1.5.2           |
+| [AppleALC](https://github.com/acidanthera/AppleALC)                 | 1.6.3           |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)          | 2.0.0(2021-8-2) |
+| [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | 2.1.3           |
+| [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)         | 2.6.0           |
+| [IntelMausi](https://github.com/acidanthera/IntelMausi)             | 1.0.7           |
+| [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All)        | 0.7.6           |
